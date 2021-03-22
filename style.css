@@ -10,6 +10,7 @@ img, svg {
 	vertical-align: middle;
 }
 input {
+	font-size:inherit;
 	font-family: inherit;
 }
 p {

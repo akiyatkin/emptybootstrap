@@ -9,6 +9,7 @@ body {
 img, svg {
 	vertical-align: middle;
 }
+
 input {
 	font-size:inherit;
 	font-family: inherit;
@@ -29,7 +30,24 @@ p {
 	margin-right: auto;
 	margin-left: auto;
 }
-
+button {
+	font-family: inherit;
+	user-select: none;
+}
+.img-thumbnail {
+	max-width: 100%;
+}
+.alert {
+	padding: 20px;
+}
+.alert-danger {
+	color: white;
+	background-color:  tomato;
+}
+.alert-success {
+	color: white;
+	background-color:  forestgreen;
+}
 @media (min-width: 576px) {
 	.container {
 		max-width: 540px;

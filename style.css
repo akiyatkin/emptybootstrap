@@ -33,6 +33,10 @@ p {
 button {
 	font-family: inherit;
 	user-select: none;
+	border: none;
+	background-color: transparent;
+	color: inherit;
+	font-size: inherit;
 }
 .img-thumbnail {
 	max-width: 100%;

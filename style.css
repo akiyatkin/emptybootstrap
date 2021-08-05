@@ -11,28 +11,18 @@ img, svg {
 }
 img, iframe, object, embed, video {
 	max-width: 100%;
+	/*height: auto;*/
 }
 
 input {
-	font-size:inherit;
+	font-size: inherit;
 	font-family: inherit;
 }
 p {
     margin-top: 0;
     margin-bottom: 1rem;
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    margin-bottom: .5rem;
-    font-weight: 500;
-    line-height: 1.2;
-}
-.container {
-	width:100%; 
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
-}
+
 button {
 	cursor: pointer;
 	font-family: inherit;
@@ -45,6 +35,55 @@ button {
 }
 ul {
 	margin-top: 0;
+}
+
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.container {
+	width:100%; 
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.breadcrumb {
+    padding: .75rem 0;
+    margin: 0;
+}
+.breadcrumb {
+    background-color: inherit;
+}
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: transparent;
+    border-radius: .25rem;
+}
+
+.breadcrumb li, .font, .btn {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+.breadcrumb-item.active {
+    color: #6c757d;
+}
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: .5rem;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #6c757d;
+    content: "/";
 }
 .img-thumbnail {
 	max-width: 100%;

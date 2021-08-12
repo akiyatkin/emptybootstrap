@@ -17,13 +17,23 @@ img, iframe, object, embed, video {
 input {
 	font-size: inherit;
 	font-family: inherit;
+	padding: .375rem 1rem;
 }
 p {
     margin-top: 0;
     margin-bottom: 1rem;
 }
-
 button {
+	font-size: inherit;
+	font-family: inherit;
+	padding: .375rem 1rem;
+	color: white;
+	border-radius: 2px;
+	cursor: pointer;
+	border-color: currentColor;
+	/*border-style: solid;*/
+}
+/*button {
 	cursor: pointer;
 	font-family: inherit;
 	user-select: none;
@@ -32,7 +42,7 @@ button {
 	color: inherit;
 	padding: 0;
 	font-size: inherit;
-}
+}*/
 ul {
 	margin-top: 0;
 }
@@ -69,10 +79,6 @@ ul {
     border-radius: .25rem;
 }
 
-.breadcrumb li, .font, .btn {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
-}
 .breadcrumb-item.active {
     color: #6c757d;
 }

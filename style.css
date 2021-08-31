@@ -76,13 +76,14 @@ table>:not(caption)>*>* {
 
 td, th {
 	text-align: left;
+	vertical-align: top;
 }
 input {
 	font-size: inherit;
 	font-family: inherit;
 	padding: .375rem 1rem;
 }
-p {
+p, table {
 	margin-top: 0;
 	margin-bottom: 1rem;
 }

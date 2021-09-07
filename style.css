@@ -168,8 +168,8 @@ ul {
 	background-color: #eaeaea;
 }
 .alert-success {
-	color: white;
-	background-color:  forestgreen;
+	color: #155724;
+	background-color:  #d4edda;
 }
 @media (min-width: 576px) {
 	.container {

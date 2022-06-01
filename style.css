@@ -91,7 +91,7 @@ button {
 	font-size: inherit;
 	font-family: inherit;
 	padding: .375rem 1rem;
-	color: white;
+	/*color: white;*/
 	border-radius: 2px;
 	cursor: pointer;
 	border-color: currentColor;
